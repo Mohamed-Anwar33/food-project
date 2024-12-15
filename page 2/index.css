@@ -1,0 +1,65 @@
+body {
+  background-image: url(../imgs/backgroundof\ 1.jpg);
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.back-button {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 24px;
+  color: rgb(245, 245, 220);
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+.contact-container {
+  width: 60%;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact-container label {
+  font-size: 18px;
+  margin-top: 10px;
+  color: brown;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgba(245, 245, 220, 0.211);
+  color: white;
+  border: 1px solid #ccc;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #96707029;
+  color: white;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5f3b3b;
+}
